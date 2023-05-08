@@ -135,3 +135,32 @@ nav {
 .service-card:nth-child(3) a {
   color: white;
 }
+
+.happen .container > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 45px;
+  background-color: #f3f3f3;
+  padding: 60px;
+  gap: 186px;
+  margin: 123px 0;
+}
+.happen .container > div > div {
+  position: relative;
+  flex-basis: 50%;
+}
+
+.happen .container > div > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.happen .container > div > div:nth-child(1) p {
+  font-size: 18px;
+}
+
+.happen .container > div > div img {
+  position: absolute;
+  top: -200px;
+}

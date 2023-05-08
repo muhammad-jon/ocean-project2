@@ -35,6 +35,7 @@ nav {
 .hero {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 100px;
 }
 
@@ -42,4 +43,20 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 35px;
+}
+
+.company-logos {
+  margin: 70px 0;
+}
+.company-logos .container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.company-logos .container div img {
+  filter: saturate(0);
+}
+
+.company-logos .container div img:hover {
+  filter: saturate(1);
 }

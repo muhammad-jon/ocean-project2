@@ -60,3 +60,78 @@ nav {
 .company-logos .container div img:hover {
   filter: saturate(1);
 }
+
+.services-header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+}
+.services-header h2 {
+  background-color: #b9ff66;
+  border-radius: 7px;
+  padding: 0 7px;
+  margin: 80px 0;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.service-card {
+  width: 600px;
+  border: 1px solid black;
+  padding: 50px;
+  display: flex;
+
+  border-radius: 45px;
+  box-shadow: 0px 5px 0px #191a23;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-card > div {
+  display: flex;
+  flex-direction: column;
+  gap: 93px;
+}
+.service-card a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.service-card:nth-child(1) {
+  background-color: #f3f3f3;
+}
+
+.service-card:nth-child(1) span {
+  background-color: #b9ff66;
+  padding: 7px;
+  border-radius: 7px;
+}
+.service-card:nth-child(2) {
+  background-color: #b9ff66;
+}
+.service-card:nth-child(2) span {
+  background-color: #f3f3f3;
+  padding: 7px;
+  border-radius: 7px;
+}
+.service-card:nth-child(3) {
+  background-color: #191a23;
+}
+.service-card:nth-child(3) span {
+  background-color: #f3f3f3;
+  padding: 7px;
+  border-radius: 7px;
+}
+.service-card:nth-child(3) a {
+  color: white;
+}

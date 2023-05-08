@@ -5,6 +5,10 @@
   font-family: "Space Grotesk", sans-serif;
 }
 
+:root {
+  --yashil: #b9ff66;
+}
+
 nav .nav-bar a {
   color: black;
   text-decoration: none;
